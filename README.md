@@ -9,7 +9,7 @@ This is a neighbourhood application where a user must signup first, be able to j
 
 #### Live Link
 
-Click the link to visit site
+Click here to [Visit the Site](https://not-awwwards.herokuapp.com/)
 
 #### User Stories
 
