@@ -1,14 +1,18 @@
-### Neighbourhood Website
+### Neighbourhood Application System.
 
 #### Author
+
 Charles Ndugire
 #### Description
+
 This is a neighbourhood application where a user must signup first, be able to join a hood owned by the hood admin, and once you join a hood, one can see businesses and posts in only that hood they belong to.
 
 #### Live Link
+
 Click the link to visit site
 
-#### User Story
+#### User Stories
+
 * Sign in with the application to start using.
 * Set up a profile about me and a general location and my neighborhood name.
 * Find a list of different businesses in my neighborhood.
@@ -18,6 +22,7 @@ Click the link to visit site
 * Only view details of a single neighborhood.
 
 #### Setup and Installation
+
 * Cloning the repository:
     * https://github.com/Charles-Ndugire/neighbourhood-actives
 * Navigate into the folder and install requirements
@@ -34,16 +39,21 @@ Click the link to visit site
 * Open the application on your browser 127.0.0.1:8000.
 
 #### Technology used
+
 * Python3.8.5
 * Django 3.1.2
 * Heroku
 
 #### Known Bugs
+
 * There are no known bugs currently but pull requests are allowed incase you spot a bug
 
+
 #### Contact Information
-If you have any question or contributions, please email me at alexotieno900@gmail.com
+
+If you have any question or contributions, please email me at ndugirecharles@gmail.com
 
 #### License
+
 * MIT License
 * Copyright &copy; 2021 |Charles Ndugire
