@@ -78,3 +78,5 @@ def create_post(request, hood_id):
         form = PostForm()
     return render(request, 'neighbourhood/post.html', {'form': form})
 
+def map(request):
+    return render(request, 'neighbourhood/map.html')
