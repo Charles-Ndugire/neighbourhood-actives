@@ -1,7 +1,4 @@
-{% extends 'neighbourhood/base.html' %}
-{% load crispy_forms_tags %}
-
-{% block content%}
+{% extends 'neighbourhood/base.html' %} {% load crispy_forms_tags %} {% block content%}
 <div class="container">
     <div class="profile-content">
         <div class="profile-header">
@@ -21,38 +18,35 @@
 <div class="container">
     <div class="content-section">
 
-      </div>
+    </div>
 </div>
 
 
-<!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Profile Info</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Profile Info</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
-        </div>
-        <div class="modal-body">
-          <!-- FORM HERE -->
-        <form method="POST" enctype="multipart/form-data">
-            {% csrf_token %}
-            <fieldset class="form-group">
-                {{ u_form|crispy }}
-                {{ p_form|crispy }}
-            </fieldset>
-            <div class="form-group">
-                <button type="submit" class="btn btn-outline-info">Update</button>
             </div>
-        </form>
+            <div class="modal-body">
+                <!-- FORM HERE -->
+                <form method="POST" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    <fieldset class="form-group">
+                        {{ u_form|crispy }} {{ p_form|crispy }}
+                    </fieldset>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-outline-info">Update</button>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
     </div>
-  </div>
+</div>
 {% endblock %}
-
