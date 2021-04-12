@@ -19,9 +19,9 @@ Click the link to visit site
 
 #### Setup and Installation
 * Cloning the repository:
-    * https://github.com/Alexotieno1717/Neighbourhood
+    * https://github.com/Charles-Ndugire/neighbourhood-actives
 * Navigate into the folder and install requirements
-    * cd Neighbourhood
+    * cd neighbourhood-actives
 * Install and activate Virtual
     * python3 -m venv virtual - source virtual/bin/activate 
 * Install Dependencies
