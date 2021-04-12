@@ -6,7 +6,7 @@ import django.db.models.deletion
 
 class Migration(migrations.Migration):
 
-    initial = 
+    initial = True
 
     dependencies = [
         ('users', '0002_profile_bio'),
