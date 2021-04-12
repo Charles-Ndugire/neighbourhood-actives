@@ -5,4 +5,4 @@ from .models import Neighbourhood,Business,Post
 admin.site.register(Neighbourhood)
 admin.site.register(Business)
 admin.site.register(Post)
-admin.site.register(Bus)
+admin.site.register(Announcements)
