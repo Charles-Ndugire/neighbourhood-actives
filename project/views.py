@@ -4,7 +4,7 @@ from .forms import BusinessForm, PostForm, NeighbourHoodForm
 from .models import Neighbourhood,Business,Post
 from users.models import Profile
 
-# Create your views here.
+# Create your views .
 def index(request):
     return render(request, 'neighbourhood/index.html')
 
@@ -78,5 +78,3 @@ def create_post(request, hood_id):
         form = PostForm()
     return render(request, 'neighbourhood/post.html', {'form': form})
 
-def map(request):
-    return render(request, 'neighbourhood/map.html')
