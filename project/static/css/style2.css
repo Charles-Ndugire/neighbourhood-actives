@@ -20,7 +20,7 @@ a:focus {
     border: none;
     border-radius: 0;
     margin-bottom: 40px;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 1px 3px rgba(15, 14, 14, 0.1);
 }
 
 .navbar-btn {
@@ -35,6 +35,7 @@ a:focus {
     border-bottom: 1px dashed #ddd;
     margin: 40px 0;
 }
+
 
 /* ---------------------------------------------------
     SIDEBAR STYLE
@@ -64,7 +65,7 @@ a:focus {
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: rgb(39, 170, 128);
+    background: rgb(36, 165, 124);
 }
 
 #sidebar ul.components {
@@ -84,7 +85,7 @@ a:focus {
 }
 
 #sidebar ul li a:hover {
-    color: #7386D5;
+    color: #3a4a88;
     background: #fff;
 }
 
@@ -109,7 +110,7 @@ a[data-toggle="collapse"] {
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: #6d7fcc;
+    background: #6476c5;
 }
 
 ul.CTAs {
@@ -131,9 +132,10 @@ a.download {
 
 a.article,
 a.article:hover {
-    background: #6d7fcc !important;
+    background: #5462a3 !important;
     color: #fff !important;
 }
+
 
 /* ---------------------------------------------------
     CONTENT STYLE
@@ -153,6 +155,7 @@ a.article:hover {
     width: 100%;
 }
 
+
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
@@ -161,25 +164,22 @@ a.article:hover {
     #sidebar {
         margin-left: -250px;
     }
-
     #sidebar.active {
         margin-left: 0;
     }
-
     #content {
         width: 100%;
     }
-
     #content.active {
         width: calc(100% - 250px);
     }
-
     #sidebarCollapse span {
         display: none;
     }
 }
-.btn-custom-nav{
-     background: none rgb(39, 170, 128);
+
+.btn-custom-nav {
+    background: none rgb(39, 170, 128);
     cursor: pointer;
     color: rgb(255, 255, 255);
     line-height: 1;
