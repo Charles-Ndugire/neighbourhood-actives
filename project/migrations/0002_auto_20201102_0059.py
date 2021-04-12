@@ -10,6 +10,8 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.RenameField(
-           
+            model_name='neighbourhood',
+            old_name='logo',
+            new_name='neighbourhood_logo',
         ),
     ]
