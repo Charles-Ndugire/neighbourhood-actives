@@ -46,4 +46,4 @@ If you have any question or contributions, please email me at alexotieno900@gmai
 
 #### License
 * MIT License
-* Copyright &copy; 2020 | Alex Otieno
+* Copyright &copy; 2021 |Charles Ndugire
